@@ -1,0 +1,1182 @@
+/* Global Styling */
+
+*{
+    color: white;
+}
+
+.nobull{
+    list-style: none;
+    
+}
+
+@font-face{
+    font-family: "BlackChancery";
+    src: url(../fonts/BLKCHCRY.TTF);
+}
+
+/* For mobiles */
+
+[class*="nav-li-"]
+{
+    display: inline-table;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.nav{
+    position: absolute;
+    left: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.76);
+    top: 70px;
+    width: 530px;
+    border: 0.1em;
+    border-style: ridge;
+    font-size: 1em;
+}
+
+[class*="mypic-"]
+{
+    position: absolute;
+    margin-left: 110px;
+    top: 545px;
+
+}
+
+[class*="picture1-"]
+{
+    width: 340px;
+    height: 500px;
+}
+
+[class*="shortcut-"]
+{
+   position: relative;
+   left: 230px;
+   width: 80px;
+   top: 1600px;
+   padding: 10px;
+   margin: 10px;
+}
+
+[class*="logo1-"]
+{
+    width: 70px;
+    height: 70px;
+}
+
+[class*="cc-"]
+{
+    font-size: 0.1em;
+}
+
+/* For tablets */
+
+@media only screen and (min-width: 600px)
+{
+[class*="nav-li-t"]
+{
+    display: inline-table;
+    margin: 5px;
+    padding: 5px;
+}
+
+[class*="nav-t"]
+{
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.76);
+    top: 30px;
+    left: 450px;
+    width: 550px;
+    border: 0.1em;
+    border-style: ridge;
+    font-size: 1em;
+}
+
+[class*="mypic-t"]
+{
+    position: absolute;
+    float: right;
+    left: 950px;
+    top: 220px;
+
+}
+
+[class*="picture1-t"]
+{
+    width: 360px;
+    height: 530px;
+}
+
+[class*="shortcut-t"]
+{
+   position: absolute;
+   top: 40px;
+   left: 1340px;
+   width: 150px;
+   height: 100px;
+   padding: 10px;
+   margin: 10px;
+}
+
+[class*="logo1-t"]
+{
+    width: 50px;
+    height: 50px;
+}
+
+[class*="cc-t"]
+{
+    font-size: 0.5em;
+    transform: rotate(90deg);
+}
+}
+
+/* For desktops */
+
+@media only screen and (min-width: 768px)
+{
+[class*="nav-li-d"]
+{
+    display: inline-table;
+    margin: 5px;
+    padding: 5px;
+}
+
+[class*="nav-d"]
+{
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.76);
+    top: 10px;
+    left: 450px;
+    width: 550px;
+    border: 0.1em;
+    border-style: ridge;
+    font-size: 1em;
+}
+
+[class*="mypic-d"]
+{
+    position: absolute;
+    float: right;
+    left: 950px;
+    top: 170px;
+
+}
+
+[class*="picture1-d"]
+{
+    width: 360px;
+    height: 530px;
+}
+}
+
+/* hover transition */
+.nav:hover{
+    background-color: rgb(45, 5, 83);
+}
+
+body{
+    background-color: rgb(58, 13, 13);
+}
+
+h1,h2{
+    font-family: "BlackChancery";
+}
+
+/* Page specific styling */
+
+/* Index page */
+
+/* For mobiles */
+[class*="block-"]
+{
+    font-family: "BlackChancery";
+    font-size: 1.2em;
+    text-align: center;
+}
+
+[class*="head-"]
+{
+    position: absolute;
+    top: 220px;
+    left: 5px;
+    width: 500px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+[class*="intro-"]
+{
+    position: absolute;
+    top: 1100px;
+    left: 5px;
+    width: 500px;
+    height: 400px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    background-color: rgba(1, 1, 1, 0.3);
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+/* For tablets */
+
+@media only screen and (min-width: 600px)
+{
+[class*="block-t"]
+{
+    font-family: "BlackChancery";
+    font-size: 1.2em;
+    text-align: center;
+}
+
+[class*="head-t"]
+{
+    position: absolute;
+    top: 200px;
+    left: 15px;
+    width: 350px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: right;
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+[class*="intro-t"]
+{
+    position: absolute;
+    top: 500px;
+    left: 15px;
+    width: 350px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+}
+
+[class*="shortcut-t"]
+{
+   position: absolute;
+   top: 650px;
+   left: 560px;
+   width: 120px;
+   height: 80px;
+   padding: 10px;
+   margin: 10px;
+}
+
+[class*="logo1-t"]
+{
+    width: 30px;
+    height: 30px;
+}
+
+[class*="cc-t"]
+{
+    font-size: 0.2em;
+    transform: rotate(90deg);
+}
+
+}
+
+/* For desktops */
+@media only screen and (min-width: 768px)
+{
+[class*="block-d"]
+{
+    font-family: "BlackChancery";
+    font-size: 1.2em;
+    text-align: center;
+}
+
+[class*="head-d"]
+{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    width: 500px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: right;
+    background-color: rgba(1, 1, 1, 0.3);
+}
+
+[class*="intro-d"]
+{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    width: 600px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+}
+
+[class*="shortcut-d"]
+{
+   position: absolute;
+   top: 20px;
+   left: 1340px;
+   width: 150px;
+   height: 100px;
+   padding: 10px;
+   margin: 10px;
+}
+
+[class*="logo1-d"]
+{
+    width: 50px;
+    height: 50px;
+}
+
+[class*="cc-d"]
+{
+    font-size: 0.5em;
+    transform: rotate(90deg);
+}
+
+}
+
+/* About Me page */
+
+/* For mobiles */
+
+[class*="about-"]
+{
+    position: absolute;
+    top: 210px;
+    left: 70px;
+    width: 370px;
+    margin: 10px;
+    padding: 10px;
+    border-style: groove;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: rgba(1, 1, 1, 0.3);
+
+}
+
+[class*="mypic-about"]
+{
+    position: absolute;
+    margin-left: 110px;
+    top: 680px;
+
+}
+
+[class*="picture1-about"]
+{
+    width: 340px;
+    height: 500px;
+}
+
+
+/* For tablets */
+
+@media only screen and (min-width: 600px)
+{
+[class*="about-t"]
+{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    width: 350px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: right;
+    background-color: rgba(1, 1, 1, 0.3);
+
+}
+
+[class*="mypic-t"]
+{
+    position: absolute;
+    float: right;
+    left: 330px;
+    top: 320px;
+
+}
+
+[class*="picture1-t"]
+{
+    width: 200px;
+    height: 300px;
+}
+
+}
+
+/* For desktops */
+
+@media only screen and (min-width: 768px)
+{
+[class*="about-d"]
+{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    width: 500px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: right;
+    background-color: rgba(1, 1, 1, 0.3);
+
+}
+
+[class*="mypic-d"]
+{
+    position: absolute;
+    float: right;
+    left: 850px;
+    top: 200px;
+
+}
+
+[class*="picture1-d"]
+{
+    width: 360px;
+    height: 530px;
+}
+
+
+}
+
+
+/* Portfolio page */
+
+/* For mobiles */
+
+[class*="portfolio-"]
+{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    margin: 1em;
+    
+}
+
+[class*="portfolio-workexp-"]
+{
+    position: absolute;
+    top: 390px;
+    left: 5px;
+    width: 500px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.3em;
+
+}
+
+[class*="portfolio-project-"]
+{
+    position: absolute;
+    top: 890px;
+    left: 5px;
+    width: 500px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.3em;
+
+}
+
+[class*="portfolio-flier-"]
+{
+    position: absolute;
+    top: 1430px;
+    left: 5px;
+    width: 500px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.3em;
+
+}
+
+[class*="example-"]
+{
+    position: absolute;
+    top: 310px;
+    font-size: 1em;
+    animation-name: work-m;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes work-m{
+    0%{
+            margin-left: 0%;
+            width: 100%;
+    }
+    25%{
+        margin-left: 5%;
+        width: 40%;
+    }
+    100%{
+        margin-left: 5%;
+        width: 40%;
+    }
+    }
+
+    [class*="academic-"]
+{
+    position: absolute;
+    top: 310px;
+    font-size: 1em;
+    animation-name: acad-m;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes acad-m{
+0%{
+        margin-left: 0%;
+        width: 100%;
+}
+25%{
+    margin-left: 90%;
+    width: 60%;
+}
+100%{
+    margin-left: 90%;
+    width: 60%;
+}
+}    
+
+[class*="webdev-"]
+{
+
+    position: absolute;
+    top: 310px;
+    font-size: 1em;
+    animation-name: web-m;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes web-m{
+    0%{
+            margin-left: 0%;
+            width: 100%;
+    }
+    25%{
+        margin-left: 45%;
+        width: 50%;
+    }
+    100%{
+        margin-left: 45%;
+        width: 50%;
+    }
+    }
+
+/* For tablets */
+
+@media only screen and (min-width: 600px)
+{
+[class*="portfolio-t"]
+{
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    margin: 1em;
+    
+}
+
+[class*="portfolio-workexp-t"]
+{
+    position: absolute;
+    top: 310px;
+    left: 15px;
+    width: 600px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+
+}
+
+[class*="portfolio-project-t"]
+{
+    position: absolute;
+    top: 760px;
+    left: 15px;
+    width: 600px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+
+}
+
+[class*="portfolio-flier-t"]
+{
+    position: absolute;
+    top: 1260px;
+    left: 15px;
+    width: 600px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+
+}
+/* Animations */
+
+[class*="example-d"]
+{
+    position: absolute;
+    top: 260px;
+    font-size: 1.2em;
+    animation-name: work-d;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes work-d{
+    0%{
+            margin-left: 0%;
+            width: 100%;
+    }
+    25%{
+        margin-left: 35%;
+        width: 50%;
+    }
+    100%{
+        margin-left: 35%;
+        width: 50%;
+    }
+    }
+
+[class*="academic-d"]
+{
+    position: absolute;
+    top: 260px;
+    font-size: 1.2em;
+    animation-name: acad-d;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes acad-d{
+0%{
+        margin-left: 0%;
+        width: 100%;
+}
+25%{
+    margin-left: 60%;
+    width: 50%;
+}
+100%{
+    margin-left: 60%;
+    width: 50%;
+}
+}    
+
+
+[class*="webdev-d"]
+{
+
+    position: absolute;
+    top: 260px;
+    font-size: 1.2em;
+    animation-name: web-d;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes web-d{
+    0%{
+            margin-left: 0%;
+            width: 100%;
+    }
+    25%{
+        margin-left: 5%;
+        width: 50%;
+    }
+    100%{
+        margin-left: 5%;
+        width: 50%;
+    }
+    }
+
+
+}
+
+/* For desktops */
+
+@media only screen and (min-width: 768px)
+{
+[class*="portfolio-d"]
+{
+    position: absolute;
+    top: 150px; 
+    left: 650px;
+    margin: 1em; 
+}
+
+[class*="portfolio-workexp-d"]
+{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    width: 700px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+    animation: none;
+}
+
+[class*="portfolio-project-d"]
+{
+    position: absolute;
+    top: 760px;
+    left: 700px;
+    width: 700px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+
+}
+
+[class*="portfolio-flier-d"]
+{
+    position: absolute;
+    top: 1260px;
+    left: 50px;
+    width: 700px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+
+}
+
+/* Animations */
+
+[class*="example-d"]
+{
+    position: absolute;
+    top: 260px;
+    font-size: 1.2em;
+    animation-name: work-d;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes work-d{
+    0%{
+            margin-left: 0%;
+            width: 100%;
+    }
+    25%{
+        margin-left: 43%;
+        width: 50%;
+    }
+    100%{
+        margin-left: 43%;
+        width: 50%;
+    }
+    }
+
+[class*="academic-d"]
+{
+    position: absolute;
+    top: 260px;
+    font-size: 1.2em;
+    animation-name: acad-d;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes acad-d{
+0%{
+        margin-left: 0%;
+        width: 100%;
+}
+25%{
+    margin-left: 60%;
+    width: 50%;
+}
+100%{
+    margin-left: 60%;
+    width: 50%;
+}
+}    
+
+[class*="webdev-d"]
+{
+
+    position: absolute;
+    top: 260px;
+    font-size: 1.2em;
+    animation-name: web-d;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes web-d{
+    0%{
+            margin-left: 0%;
+            width: 100%;
+    }
+    25%{
+        margin-left: 25%;
+        width: 50%;
+    }
+    100%{
+        margin-left: 25%;
+        width: 50%;
+    }
+    }
+}
+
+/* Resume page */
+
+/* For mobiles */
+
+[class*="resume-head-"]
+{
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    width: 300px;
+    height: 100px;
+    margin: 1em;
+    text-align: center;
+    font-size: 1em;
+}
+
+[class*="resume-content-"]
+{
+    position: absolute;
+    top: 520px;
+    left: 5px;
+    width: 570px;
+    margin: 10px;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+}
+
+[class*="resume-n-"]
+{
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(40, 0, 0, 0.76);
+    top: 330px;
+    left: 30px;
+    width: 500px;
+    border: 0.05em;
+    border-style: groove;
+    text-align: center;
+}
+
+[class*="nav-"]
+{
+    left: 25px;
+}
+
+/* For tablets */
+
+@media only screen and (min-width: 600px)
+{
+[class*="resume-head-t"]
+{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    width: 300px;
+    height: 100px;
+    margin: 1em;
+    text-align: center;
+}
+
+[class*="resume-content-t"]
+{
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    width: 620px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+}
+
+[class*="resume-n-t"]
+{
+    position: absolute;
+    left: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.76);
+    top: 350px;
+    width: 615px;
+    border: 0.1em;
+    border-style: ridge;
+    font-size: 1em;
+}
+[class*="nav-t"]
+{
+    left: 200px;
+}
+}
+
+/* For desktops */
+
+@media only screen and (min-width: 768px)
+{
+[class*="resume-head-d"]
+{
+    position: absolute;
+    top: 150px;
+    left: 570px;
+    width: 300px;
+    height: 120px;
+    margin: 10px;;
+    padding: 10px;
+    text-align: center;
+}
+
+[class*="resume-content-d"]
+{
+    position: absolute;
+    top: 480px;
+    left: 10px;
+    width: 1450px;
+    margin: 1em;
+    padding: 10px;
+    border-style: groove;
+    text-align: left;
+    background-color: rgba(1, 1, 1, 0.3);
+    line-height: 1.5em;
+}
+
+[class*="resume-n-d"]
+{
+    position: absolute;
+    left: 180px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.76);
+    top: 350px;
+    width: 1125px;
+    border: 0.1em;
+    border-style: ridge;
+    font-size: 1em;
+}
+[class*="nav-d"]
+{
+    left: 440px;
+}
+}
+
+/* References page */
+
+/* For mobiles */
+
+
+[class*="references-"]
+{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    line-height: 1.5em;
+}
+
+
+/* For tablets */
+
+@media only screen and (min-width: 600px)
+{
+[class*="references-t"]
+{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    line-height: 1.5em;
+}
+}
+
+/* For desktops */
+
+@media only screen and (min-width: 768px)
+{
+[class*="references-d"]
+{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    line-height: 1.5em;
+}
+}
+
+/* Contact Form */
+
+/* For mobiles */
+
+[class*="quer-"]
+{
+    position: absolute;
+    top: 180px;
+    left: 85px;
+    width: 450px;
+    font-size: 1.5em;
+}
+
+[class*="form-"]
+{
+    position: absolute;
+    top: 280px;
+    left: 180px;
+    border: 0.05em;
+    border-style: groove;
+    font-family: "BlackChancery";
+}
+
+#first-name, #second-name, #organisation-name, #message{
+    color: black;
+}
+
+.sub{
+    color: black;
+    font-family: "BlackChancery";
+}
+
+[class*="nav-"]
+{
+    left: 25px;
+}
+
+/* For Tablets */
+@media only screen and (min-width: 600px)
+{
+[class*="quer-t"]
+{
+    position: absolute;
+    top: 180px;
+    left: 130px;
+    width: 450px;
+    font-size: 1.5em;
+}
+
+[class*="form-t"]
+{
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    border: 0.1em;
+    border-style: groove;
+}
+
+[class*="nav-t"]
+{
+    left: 55px;
+}
+}
+
+/* For Desktops */
+@media only screen and (min-width: 768px)
+{
+[class*="quer-d"]
+{
+    position: absolute;
+    top: 160px;
+    left: 520px;
+    width: 450px;
+    font-size: 1.5em;
+}
+
+[class*="form-d"]
+{
+    position: absolute;
+    top: 260px;
+    left: 620px;
+    border: 0.1em;
+    border-style: groove;
+}
+
+[class*="nav-d"]
+{
+    left: 440px;
+}
+}
+
+/* References page */
+
+/* For mobiles */
+
+[class*="references-"]
+{
+    position: absolute;
+    left: 50px;
+}
+
+/* For tablets */
+@media only screen and (min-width: 600px)
+{
+
+[class*="references-t"]
+{
+    position: absolute;
+    left: 300px;
+}
+
+}
+
+/* For desktops */
+@media only screen and (min-width: 768px)
+{
+
+[class*="references-d"]
+{
+    position: absolute;
+    left: 350px;
+}
+}
